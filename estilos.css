@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#f5ecec;;
+}
+
+/* HEADER */
+.logo1 {
+    border-radius: 50%;
+    margin-left: 25px;
+}
+
+.fondo1 {
+    background-color: #702727 !important;
+}
+
+.collapse {
+    display: flex;
+    justify-content: end;
+}
+
+.nav-item {
+    margin: 15px;
+    font-size: 22px;
+    
+}
+
+nav ul li a:hover{
+    color: #f5ecec;
+    margin-right: 10px;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content:space-between;
+    background-color:  #702727;
+    align-items: center;
+}
+
+.box7 ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.box7 li a {
+    display: flex;
+    font-size: 20px;
+    margin: 30px 40px 5px 30px;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-decoration: none;
+}
+
+.box7 img {
+    border-radius: 15px;
+}
+.box7 a:hover{
+    color: #f5ecec;
+    margin-left: 10px;
+    transition: 1s;
+}
+
+/* MAIN INDEX.HTML */
+
+.box3 {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.box4 h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#480404;
+    margin-left: 10px;
+}
+
+.box4 h1:hover {
+    text-decoration: underline;
+    width: 60%;
+}
+
+.box4 p {
+    font-size: 20px;
+    margin-right: 40px;
+    margin-left: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.flores {
+    border-radius: 15px;
+    margin: 30px 20px;
+}
+
+/* MAIN PROCESO.HTML */
+
+.box5 {
+    display: flex;
+}
+
+.box6 h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    font-size: 28px;
+    color:#480404;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.box6 h2:hover {
+    text-decoration: underline;
+    width: 50%;
+}
+
+.box6 p {
+    margin-right: 50px;
+    margin-left: 10px;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box9{
+    margin: 20px 20px 40px 0;
+    border-radius: 15px;
+}
+
+/* MAIN TUESTE.HTML */
+
+.box10 {
+    display: flex;
+}
+
+.box11 h1 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    font-size: 28px;
+    color:#480404;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    letter-spacing: 1px;
+}
+
+.box11 h1:hover {
+    text-decoration: underline;
+    width: 50%;
+}
+
+.box11 p {
+    margin-right: 50px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+.box12{
+    margin-top: 50px;
+}
+
+.box12 h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    font-size: 28px;
+    color:#480404;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    letter-spacing: 1px;
+}
+
+.box12 h2:hover {
+    text-decoration: underline;
+    width: 50%;
+}
+
+.box12 p {
+    margin-right: 50px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+.box13 {
+    padding-top: 50px;
+    padding-right: 30px;
+}
+
+.box14 {
+    padding-top: 100px;
+    padding-right: 30px;
+    margin-top: 40px;
+}
+
+
+/* MAIN RESULTADO.HTML */
+
+.box15 {
+    display:flex;
+    justify-content: center ;
+    padding: 20px;
+    font-size: 30px;
+    color:#480404;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.box15:hover{
+    text-decoration: underline;
+    width: 100%;
+}
+
+.box16 h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#480404;
+}
+
+.box16 p {
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 305px 1fr 1fr;
+    column-gap: 30px;
+    margin-left: 75px;
+}
+
+.box18 {
+    display: flex;
+    justify-content: center;
+    margin: 2% 5% 3% 4%;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ 
+/* MAIN CONTACTO.HTML */
+
+.box19 {
+    display:flex;
+    justify-content: space-between;
+}
+
+.box21 h1 {
+    margin: 15px;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+    color:#480404;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.box21 h1:hover {
+    text-decoration: underline;
+}
+ 
+.box22 {
+    text-align: center;
+}
+
+.box22 h3 {
+    margin: 20px 0 10px 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#480404;
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+
+#form1 {
+    width: 60%;
+    height: 35px;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#form2 {
+    width: 60%;
+    height: 35px;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#form3 {
+    margin-bottom: 3%;
+    height: 300px;
+    width: 70%;
+    background-color: lightgray;
+    border-radius: 15px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.boton1{
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    width: 50%;
+    height: 50px;
+    font-size:18px;
+    background-color: #943126;
+    color: black;
+    border-radius: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.boton1:hover {
+    background-color:#620606 ;
+    color: white;
+}
+
+.box20 {
+    margin: 40px 50px 40px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
