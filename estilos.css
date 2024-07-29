@@ -317,7 +317,7 @@ footer {
     padding-top: 20px;
     padding-bottom: 10px;
     margin-left: 10px;
-    font-size: 28px;
+    font-size: 32px;
     color:#480404;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     letter-spacing: 1px;
@@ -331,7 +331,7 @@ footer {
 .box11 p {
     margin-right: 50px;
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
 
@@ -343,7 +343,7 @@ footer {
     padding-top: 20px;
     padding-bottom: 10px;
     margin-left: 10px;
-    font-size: 28px;
+    font-size: 32px;
     color:#480404;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
     letter-spacing: 1px;
@@ -358,7 +358,7 @@ footer {
     margin-right: 50px;
     margin-left: 10px;
     margin-bottom: 50px;
-    font-size: 20px;
+    font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
 
@@ -380,7 +380,7 @@ footer {
     display:flex;
     justify-content: center ;
     padding: 20px;
-    font-size: 30px;
+    font-size: 32px;
     color:#480404;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 1px;
@@ -406,13 +406,13 @@ footer {
     margin-right: 5%;
     margin-bottom: 5%;
     margin-top: 30px;
-    font-size: 22px;
+    font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: 305px 1fr 1fr;
+    grid-template-columns: 500px 1fr 1fr;
     column-gap: 30px;
     margin-left: 75px;
 }
@@ -421,7 +421,7 @@ footer {
     display: flex;
     justify-content: center;
     margin: 2% 5% 3% 4%;
-    font-size: 22px;
+    font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
  
@@ -434,7 +434,7 @@ footer {
 
 .box21 h1 {
     margin: 15px;
-    font-size: 32px;
+    font-size: 34px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
     color:#480404;
     letter-spacing: 1px;
@@ -507,7 +507,7 @@ footer {
 }
 
 .box20 {
-    margin: 40px 50px 40px 20px;
+    margin: 40px 10% 40px 20px;
 }
 
 
