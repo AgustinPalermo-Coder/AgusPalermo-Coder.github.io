@@ -1,0 +1,28 @@
+.box5 {
+  display: flex;
+  .box6 {
+    h2 {
+      padding-top: 20px;
+      padding-bottom: 10px;
+      margin-left: 10px;
+      font-size: 28px;
+      color: #480404;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      letter-spacing: 1px;
+    }
+    h2:hover {
+      text-decoration: underline;
+      width: 50%;
+    }
+    p {
+      margin-right: 50px;
+      margin-left: 10px;
+      font-size: 24px;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    }
+  }
+  .box9 {
+    margin: 20px 20px 40px 0;
+    border-radius: 15px;
+  }
+}

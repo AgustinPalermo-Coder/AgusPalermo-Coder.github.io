@@ -1,0 +1,27 @@
+.box3 {
+  display: flex;
+  margin-bottom: 40px;
+  h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #480404;
+    margin-left: 10px;
+  }
+  h1:hover {
+    text-decoration: underline;
+    width: 60%;
+  }
+  p {
+    font-size: 23px;
+    margin-right: 40px;
+    margin-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+}
+
+.flores {
+  border-radius: 15px;
+  margin: 30px 20px;
+}

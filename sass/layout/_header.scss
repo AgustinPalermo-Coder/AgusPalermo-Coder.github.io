@@ -1,0 +1,25 @@
+header {
+    background-color: #702727 !important;
+    
+    nav {
+        .logo1 {
+            border-radius: 50%;
+            margin-left: 25px;
+        }
+        .collapse {
+            display: flex;
+            justify-content: end;
+        }
+        .nav-item {
+            margin: 15px;
+            font-size: 22px;
+            
+        }
+        a:hover{
+            color: #f5ecec;
+            margin-right: 10px;
+            text-decoration: underline;
+            transition: 1s;
+        }
+    }
+}

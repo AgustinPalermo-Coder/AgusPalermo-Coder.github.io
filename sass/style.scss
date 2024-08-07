@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#f5ecec;;
+}
+
+//IMPORTS
+@import "layout/header";
+@import "layout/footer";
+@import "./layout/main-index";
+@import "layout/main-proceso";
+@import "layout/main-tueste";
+@import "layout/main-resultado";
+@import "layout/main-contacto";
+
+
+
