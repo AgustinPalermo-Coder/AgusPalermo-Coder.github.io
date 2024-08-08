@@ -1,13 +1,16 @@
+@import "../variables/variables";
+
 .box10 {
   display: flex;
+  
   .box11 {
     h1 {
       padding-top: 20px;
       padding-bottom: 10px;
       margin-left: 10px;
       font-size: 32px;
-      color: #480404;
-      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      color: $color-fondo;
+      font-family: $letra-titulo;
       letter-spacing: 1px;
     }
     h1:hover {
@@ -18,23 +21,27 @@
       margin-right: 50px;
       margin-left: 10px;
       font-size: 24px;
-      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      font-family: $letra-parrafo;
     }
   }
   .box13 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding-top: 50px;
     padding-right: 30px;
   }
 
   .box12 {
     margin-top: 50px;
+    
     h2 {
       padding-top: 20px;
       padding-bottom: 10px;
       margin-left: 10px;
       font-size: 32px;
-      color: #480404;
-      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      color: $color-fondo;
+      font-family: $letra-titulo;
       letter-spacing: 1px;
     }
     h2:hover {
@@ -46,7 +53,7 @@
       margin-left: 10px;
       margin-bottom: 50px;
       font-size: 24px;
-      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      font-family: $letra-parrafo;
     }
   }
   .box14 {

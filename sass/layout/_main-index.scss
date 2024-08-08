@@ -1,3 +1,5 @@
+@import "../variables/variables";
+
 .box3 {
   display: flex;
   margin-bottom: 40px;
@@ -5,8 +7,8 @@
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 30px;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    color: #480404;
+    font-family: $letra-titulo;
+    color: $color-fondo;
     margin-left: 10px;
   }
   h1:hover {
@@ -17,7 +19,7 @@
     font-size: 23px;
     margin-right: 40px;
     margin-left: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-family: $letra-parrafo;
   }
 }
 

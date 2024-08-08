@@ -1,3 +1,5 @@
+@import "../variables/variables";
+
 .box19 {
     display:flex;
     justify-content: space-between;
@@ -5,8 +7,8 @@
         h1 {
             margin: 15px;
             font-size: 34px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
-            color:#480404;
+            font-family: $letra-titulo;
+            color: $color-fondo;
             letter-spacing: 1px;
             text-align: center; 
         }
@@ -18,8 +20,8 @@
         text-align: center;
         h3 {
             margin: 20px 0 10px 15px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            color:#480404;
+            font-family: $letra-titulo;
+            color:$color-fondo;
             font-size: 23px;
             letter-spacing: 1px;  
         }
@@ -43,17 +45,18 @@
         }
     }
     .boton1{
+        background-color:#943126 ;
+        font-size:18px;
+        color: black;
+        border-radius: 15px;
+        font-family:$letra-titulo;
+        width: 50%;
+        height: 50px;
         display: flex;
         justify-content: center;
         margin-left: 25%;
         margin-bottom: 5%;
-        width: 50%;
-        height: 50px;
-        font-size:18px;
-        background-color: #943126;
-        color: black;
-        border-radius: 15px;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        
         &:hover {
             background-color:#620606 ;
             color: white;
@@ -63,3 +66,4 @@
         margin: 40px 10% 40px 20px;
     }
 }
+

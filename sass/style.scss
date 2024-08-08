@@ -17,9 +17,15 @@ body {
 @import "layout/main-contacto";
 @import "layout/main-index";
 
+// VARIABLES
+@import "variables/variables";
+
 // MEDIA QUERY
-@import "media-queryes/media-header"
+@import "media-queryes/media-header";
+@import "media-queryes/media-index"; 
+@import "media-queryes/media-proceso";
 
 
+@import "componentes/mixin";
 
 
