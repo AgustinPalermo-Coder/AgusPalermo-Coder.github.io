@@ -1,0 +1,13 @@
+@media screen and (max-width:1200px) {
+    .collapse {
+        display: flex;
+        justify-content: start;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .collapse {
+        display: flex;
+        justify-content: end;
+    }
+}
