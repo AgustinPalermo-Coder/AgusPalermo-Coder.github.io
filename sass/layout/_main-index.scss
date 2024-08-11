@@ -1,4 +1,5 @@
 @import "../variables/variables";
+@import "../componentes/mixin";
 
 .box3 {
   display: flex;
@@ -14,6 +15,7 @@
   h1:hover {
     text-decoration: underline;
     width: 60%;
+    @include TransTitulo;
   }
   p {
     font-size: 23px;
@@ -26,6 +28,9 @@
 .flores {
   border-radius: 15px;
   margin: 30px 20px;
+  &:hover {
+   @include Transition;
+  }
 }
 
 
