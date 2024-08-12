@@ -1,0 +1,16 @@
+
+
+
+@media screen and (max-width:560px) {
+    section .grid-container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (min-width:560px) and (max-width:1350px) {
+    section .grid-container {
+      display: flex;
+      flex-direction: column;
+    }
+  }

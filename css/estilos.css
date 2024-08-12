@@ -463,5 +463,38 @@ section .box18 {
     margin-bottom: 10px;
   }
 }
+@media screen and (max-width: 560px) {
+  section .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 560px) and (max-width: 1350px) {
+  section .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 360px) {
+  .box19 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 560px) {
+  .box19 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 560px) and (max-width: 1000px) {
+  .box19 {
+    display: flex;
+    flex-direction: column;
+  }
+  .box19 .box20 {
+    width: 90%;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */
