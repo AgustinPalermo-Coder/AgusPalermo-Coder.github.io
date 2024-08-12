@@ -1,9 +1,11 @@
 @import "../variables/variables";
 @import "../componentes/mixin";
+@import "../media-queryes/media-tueste";
 
 .box10 {
   display: flex;
-  
+  flex-direction: row;
+
   .box11 {
     h1 {
       padding-top: 20px;
@@ -27,9 +29,6 @@
     }
   }
   .box13 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     padding-top: 50px;
     padding-right: 30px;
     &:hover {
