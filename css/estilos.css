@@ -467,6 +467,7 @@ section .box18 {
   section .grid-container {
     display: flex;
     flex-direction: column;
+    width: 70%;
   }
 }
 @media screen and (min-width: 560px) and (max-width: 1350px) {
